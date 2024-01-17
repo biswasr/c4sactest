@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button onclick="redirectToProtectedPage()">Enter</button>
+
+    <!-- // You need to include a SHA-256 hashing function or library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script>
+        function redirectToProtectedPage() {
+            var password = document.getElementById('passwordInput').value;
+            var hashedPassword = CryptoJS.SHA256(password).toString(); // You'll need a function to perform SHA-256 hashing here
+            console.log(hashedPassword);
+            window.location.href = '/' + hashedPassword + '/';
+        }
+    </script>
+</body>
+</html>
