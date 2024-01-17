@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved - Center for Science and Consciousness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo_orig.png" alt="Center for Science and Consciousness Logo" class="involved-logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="get-involved.html" class="active">Get Involved</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="get-involved">
+            <h1>Become a Member</h1>
+            <p>Join us in the scientific exploration on this exciting field. This membership is limited to people with published scientific research work and/or associated with accredited scientific institutions.</p>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="interest">Area of Interest:</label>
+                <select id="interest" name="interest">
+                    <option value="research">Research</option>
+                    <option value="events">Events</option>
+                    <option value="education">Education</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <button type="submit" class="cta">Register</button>
+            </form>
+            <p id="confirmationMessage"></p> <!-- Confirmation message will appear here -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>© Center for Science and Consciousness. All rights reserved.</p>
+        <p>Our commitment to privacy and transparency is paramount. <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+    <!-- ... existing content ... -->
+    <script src="script.js"></script>
+    </body>
+    </html>
+
+</body>
+</html>

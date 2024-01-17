@@ -1,0 +1,318 @@
+:root {
+    --primary-color: #00334e; 
+    --accent-color: #00a6fb; 
+    --text-color: #333333; 
+    --background-color: #fafafa; 
+    --font-primary: 'Arial', sans-serif;
+    --font-secondary: 'Georgia', serif;
+    --logo-background: #ffffff; /* White background for the logo to stand out */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+}
+
+.organization-title {
+    color: maroon; /* Maroon color for the text */
+    font-size: 2.5rem; /* Size to match the hero text, adjust as needed */
+    text-align: center; /* Center the text under the logo */
+    margin-top: 10px; /* Add some space between the logo and the title */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0; /* Adjust padding as needed for vertical alignment */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Ensures the list is centered without default margins */
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px; /* Adds horizontal spacing between items */
+}
+
+/* ... remaining styles ... */
+
+
+.logo {
+    background-color: var(--logo-background); /* Light background for the logo */
+    border-radius: 5px; /* Optional: adds rounded corners to the logo's background */
+    padding: 10px; /* Adds some space around the logo */
+}
+
+.logo img {
+    height: 80px; /* Enlarged logo for better visibility */
+}
+
+.logo-area {
+    background-color: var(--background-color); /* Light background for the logo */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo-area img {
+    max-height: 300px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* .involved-logo {
+    width: 150px; /* Adjust this value as needed */
+    height: auto; /* This will maintain the aspect ratio */
+} */
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: var(--background-color);
+    
+}
+
+.hero h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+}
+
+.schrodinger-image {
+    max-width: 120px; /* Adjust the size as needed */
+    margin-right: 30px; /* Space between the image and the quote */
+    /* margin-left: -30px; */
+}
+
+.quote-container {
+    flex-grow: 1;
+}
+
+.hero-quote {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    color: #333; /* Color for the quote */
+    font-style: italic;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center; /* Center the quote for emphasis */
+
+    /* Additional styling for the quote */
+}
+
+.schrodinger-quote {
+    background-image: url('path_to_schrodinger_image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* or a color that contrasts well with your image */
+    padding: 20px;
+}
+
+.cta {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta:hover {
+    background-color: darken(var(--accent-color), 10%);
+}
+
+.snippet {
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.research-area {
+    margin-bottom: 40px;
+}
+
+.research-area h2 {
+    color: #005f73; /* Adjust the color as per your site's theme */
+    margin-bottom: 10px;
+}
+
+.research-area p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* A readable text color */
+}
+
+.page-title {
+    font-size: 2rem; /* Adjust the size as needed */
+    text-align: center; /* Center the title if fits your design */
+    color: #005f73; /* Choose a color that fits your website's theme */
+    margin-bottom: 30px; /* Space before the research area sections */
+}
+
+/* Responsive Design and other styles remain unchanged */
+
+
+
+/* Form Styles */
+.get-involved {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.get-involved h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+form {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form select,
+form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: white
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+background-color: var(--accent-color);
+opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+.nav-links li {
+display: block;
+text-align: center;
+margin: 10px 0;
+}
+.nav-links {
+    display: none; /* Hidden by default, can be shown using a menu icon */
+}
+
+.hero h1 {
+    font-size: 1.75rem;
+}
+
+.hero p,
+.cta {
+    font-size: 1rem;
+}
+
+.snippet,
+.get-involved {
+    padding: 1rem;
+}
+}
+
+@media (min-width: 769px) {
+.hero {
+padding: 4rem 2rem;
+}
+.cta {
+    font-size: 1.1rem;
+}
+}
+
+/* Utility Classes */
+.hidden {
+display: none;
+}
+
+/* Function to darken the accent color for hover effect */
+@function darken($color, $percent) {
+$amount: $percent / 100;
+@return mix(black, $color, $amount * 100);
+}
