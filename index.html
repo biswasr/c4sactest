@@ -13,7 +13,6 @@
         function redirectToProtectedPage() {
             var password = document.getElementById('passwordInput').value;
             var hashedPassword = CryptoJS.SHA256(password).toString(); // You'll need a function to perform SHA-256 hashing here
-            console.log(hashedPassword);
             window.location.href = '/' + hashedPassword + '/';
         }
     </script>
