@@ -71,6 +71,11 @@ nav {
     text-align: center;
     padding: 10px 0;
 }
+.emphasized-text {
+    font-weight: bold; /* Makes the text bold */
+    color: #ff4500; /* Changes the color, choose a color that suits your design */
+    /* You can also add other styles like font-size, background-color, etc., as needed */
+}
 
 .logo-area img {
     max-height: 300px; /* Adjust the height as needed */
