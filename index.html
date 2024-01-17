@@ -13,7 +13,7 @@
         function redirectToProtectedPage() {
             var password = document.getElementById('passwordInput').value;
             var hashedPassword = CryptoJS.SHA256(password).toString(); // You'll need a function to perform SHA-256 hashing here
-            window.location.href = '/' + hashedPassword + '/';
+            window.location.href = '/c4sactest/' + hashedPassword + '/';
         }
     </script>
 </body>
