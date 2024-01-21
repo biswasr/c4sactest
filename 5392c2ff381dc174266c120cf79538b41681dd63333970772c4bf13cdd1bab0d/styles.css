@@ -404,6 +404,21 @@ background-color: var(--accent-color);
 opacity: 0.9;
 }
 
+.contact-form {
+    margin: 20px;
+    padding: 20px;
+    text-align: center; /* Centering the content */
+}
+
+.contact-form h2 {
+    color: #005f73; /* Adjust the color as needed */
+    margin-bottom: 15px;
+}
+
+.contact-form p {
+    margin-bottom: 20px; /* Space between the text and the link */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
 .nav-links li {
