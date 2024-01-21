@@ -29,7 +29,7 @@ header {
 }
 
 .organization-title {
-    color: maroon; /* Maroon color for the text */
+    color: #c0392b; /* Maroon color for the text */
     font-size: 2.5rem; /* Size to match the hero text, adjust as needed */
     text-align: center; /* Center the text under the logo */
     margin-top: 10px; /* Add some space between the logo and the title */
