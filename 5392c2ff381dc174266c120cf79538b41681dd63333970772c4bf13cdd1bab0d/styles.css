@@ -76,7 +76,59 @@ nav {
     color: #ff4500; /* Changes the color, choose a color that suits your design */
     /* You can also add other styles like font-size, background-color, etc., as needed */
 }
+.schrodinger-about {
+    font-size: 1rem; /* Adjust the size as needed */
+    color: #333; /* Choose a color that fits your design */
+    margin-top: 15px; /* Space between the quote and the additional text */
+    font-style: italic; /* Optional: Makes the text italic for distinction */
+    /* Additional styling as needed */
+}
+.schrodinger-bio-link {
+    color: #0077cc; /* Example color - choose what fits your design */
+    font-weight: bold;
+    text-decoration: none; /* Optional: removes the underline */
+    /* margin-left: 10px; Adds a little space before the link */
+}
+.about-org {
+    margin: 20px;
+    padding: 20px;
+}
 
+.about-org h2 {
+    color: #005f73; /* Adjust the color as needed */
+    margin-bottom: 15px;
+}
+
+.about-org ul {
+    margin-top: 10px;
+    list-style: inside square; /* Style for the bullet points */
+}
+
+.about-org li {
+    margin-bottom: 10px; /* Space between list items */
+}
+.events-list {
+    margin: 20px;
+    padding: 20px;
+}
+
+.events-list h2 {
+    color: #005f73; /* Adjust the color as needed */
+    margin-bottom: 15px;
+}
+
+.events-list ul {
+    list-style-type: disc; /* Style for the bullet points, adjust as needed */
+    padding-left: 20px; /* Space for bullet points */
+}
+
+.events-list li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.schrodinger-bio-link:hover {
+    text-decoration: underline; /* Re-adds underline on hover for visual feedback */
+}
 .logo-area img {
     max-height: 300px; /* Adjust the height as needed */
     width: auto; /* Maintain aspect ratio */
@@ -204,6 +256,21 @@ footer a {
     margin: auto;
     padding: 20px;
 }
+.research-areas {
+    margin: 20px;
+    padding: 20px;
+}
+
+.research-areas h2 {
+    color: #005f73; /* Adjust the color as needed */
+    margin-bottom: 15px;
+}
+
+.research-areas h3 {
+    color: #333; /* Adjust the color as needed */
+    margin-bottom: 10px; /* Space between titles */
+    /* Additional styling as needed */
+}
 
 .research-area {
     margin-bottom: 40px;
@@ -220,6 +287,34 @@ footer a {
     color: #333; /* A readable text color */
 }
 
+.survey-papers {
+    margin: 20px;
+    padding: 20px;
+}
+
+.survey-papers h2 {
+    color: #005f73; /* Adjust the color as needed */
+    margin-bottom: 15px;
+}
+
+.survey-papers ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0; /* Aligns list items to the left */
+}
+
+.survey-papers li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.survey-papers a {
+    color: #0077cc; /* Example color - adjust to fit your design */
+    text-decoration: none; /* Optional: removes the underline */
+}
+
+.survey-papers a:hover {
+    text-decoration: underline; /* Adds underline on hover for visual feedback */
+}
+
 .page-title {
     font-size: 2rem; /* Adjust the size as needed */
     text-align: center; /* Center the title if fits your design */
@@ -232,19 +327,52 @@ footer a {
 
 
 /* Form Styles */
-.get-involved {
+/* .get-involved {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+} */
 
 .get-involved h1 {
     text-align: center;
     color: var(--primary-color);
 }
+.get-involved {
+    margin: 20px;
+    padding: 20px;
+    text-align: center; /* Centering the content */
+}
+
+.get-involved h2 {
+    color: #005f73; /* Adjust the color as needed */
+    margin-bottom: 15px;
+}
+
+.get-involved p {
+    margin-bottom: 20px; /* Space between the text and the link */
+}
+
+.google-form-link {
+    display: inline-block; /* Allows width and height to be set */
+    background-color: #0077cc; /* Background color of the button */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Top/bottom and left/right padding */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; /* Larger font size */
+    margin-top: 20px; /* Space above the button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.google-form-link:hover {
+    background-color: #005f73; /* Darker background on hover */
+    text-decoration: none; /* Ensures no underline on hover */
+}
+
 
 form {
     display: grid;
